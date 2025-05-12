@@ -4,7 +4,7 @@
   <h1>QuickQR</h1>
 
   <p>
-    Instant, sleek, scannable – your QR codes, simplified.! 
+    Instant, sleek, scannable – your QR codes, simplified! 
   </p>
 
 
