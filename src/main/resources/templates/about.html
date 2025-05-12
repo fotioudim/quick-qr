@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body {
+          margin: 0;
+          height: 100vh;
+          background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .container {
+          text-align: center;
+          padding: 30px;
+          background-color: white;
+          border-radius: 20px;
+          box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+          max-width: 500px;
+          width: 90%;
+        }
+
+        h1 {
+          margin-top: 0;
+          font-size: 2rem;
+          color: #333;
+        }
+
+        p {
+          font-size: 1rem;
+          color: #555;
+          margin: 20px 0;
+        }
+
+        .social-buttons {
+          display: flex;
+          justify-content: center;
+          gap: 15px;
+          margin-top: 20px;
+        }
+
+        .social-buttons a {
+          background-color: #333;
+          color: white;
+          padding: 12px 16px;
+          border-radius: 8px;
+          font-size: 1.2rem;
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          transition: background-color 0.3s ease;
+        }
+
+        .social-buttons a:hover {
+          background-color: #24292e;
+        }
+
+        .back-link {
+          display: inline-block;
+          margin-top: 30px;
+          text-decoration: none;
+          color: #4a90e2;
+          font-size: 1rem;
+        }
+
+        .back-link:hover {
+          text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>About This App</h1>
+    <p>This is a simple web app that lets you generate and download QR codes from URLs. Designed with minimalism, style, and function in mind.</p>
+
+    <div class="social-buttons">
+        <a href="https://github.com/fotioudim" target="_blank">
+            <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/dimitris-fotiou/" target="_blank">
+            <i class="fab fa-linkedin"></i> Linkedin
+        </a>
+    </div>
+
+    <a class="back-link" href="/qr-page">&larr; Back to Home</a>
+</div>
+</body>
+</html>
